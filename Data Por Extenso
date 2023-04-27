@@ -1,0 +1,10 @@
+function dataPorExtenso(data) {
+
+    let diaSemana = (data.toLocaleString('pt-Pt', { weekday: 'long' }))
+    let dia = (data.toLocaleString('pt-Pt', { day: 'numeric' }))
+    let mes = (data.toLocaleString('pt-Pt', { month: 'long' }))
+    let ano = (data.toLocaleString('pt-Pt', { year: 'numeric' }))
+  
+    return `${diaSemana}, ${dia} de ${mes} de ${ano}`
+  
+  }

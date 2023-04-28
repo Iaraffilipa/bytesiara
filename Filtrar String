@@ -1,0 +1,3 @@
+function filtraStrings(array) {
+    return array.filter(elemento => typeof elemento === 'string')
+}

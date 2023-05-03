@@ -1,2 +1,0 @@
-function encontrarPrimo
-return array.filter(elemento => elemento < 2)

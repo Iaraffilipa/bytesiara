@@ -1,0 +1,50 @@
+function numeroTrilingue(n, lingua) {
+    const portugues = [
+        "zero",
+        "um",
+        "dois",
+        "três",
+        "quatro",
+        "cinco",
+        "seis",
+        "sete",
+        "oito",
+        "nove",
+        "dez"
+    ]
+    const ingles = [
+        "zero",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eigth",
+        "nine",
+        "ten"
+    ]
+    const frances = [
+        "zéro",
+        "un",
+        "deux",
+        "trois",
+        "quatre",
+        "cinq",
+        "six",
+        "sept",
+        "huit",
+        "neuf",
+        "dix"
+    ]
+    if (lingua == "pt") {
+        return (portugues[n])
+    }
+    if (lingua == "eng") {
+        return (ingles[n])
+    }
+    if (lingua == "fr") {
+        return (frances)
+    }
+}

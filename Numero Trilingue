@@ -45,6 +45,6 @@ function numeroTrilingue(n, lingua) {
         return (ingles[n])
     }
     if (lingua == "fr") {
-        return (frances)
+        return (frances[n])
     }
 }

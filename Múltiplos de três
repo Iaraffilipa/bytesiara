@@ -1,2 +1,3 @@
-function multiplosDeTres (array)
+function multiplosDeTres (array) {
 return array.some ( elemento => elemento % 3)
+}

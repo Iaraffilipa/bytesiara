@@ -1,0 +1,10 @@
+function diferencaAbsolutaEntreDiagonais (matrizquadradra) {
+let diagonalPrincipal = 0;
+let diagonalSecundaria = 0;
+
+for ( let i = 0; i < matrizquadradra.length; i++ ) {
+diagonalPrincipal += matrizquadradra[i][i];
+diagonalSecundaria += matrizquadradra[i][matrizquadradra.length - i - 1];
+}
+return Math.abs (diagonalPrincipal - diagonalSecundaria);
+}

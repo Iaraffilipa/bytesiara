@@ -1,0 +1,2 @@
+Function multiplosPorN (array, n)
+Return array.map ( elemento => elemento * n)
